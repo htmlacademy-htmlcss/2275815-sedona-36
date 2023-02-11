@@ -35,7 +35,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <button class="button navigation-show-more" type="button">Хочу сюда</button>
+          <a class="button navigation-show-more" href="">Хочу сюда</a>
       </ul>
     </nav>
   </header>
@@ -53,21 +53,17 @@
         </li>
       </ul>
     </header>
-
     <section class="catalog-hotels">
       <h2 class="visually-hidden">Список отелей</h2>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура:</legend>
-
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="Бассейн" checked> Бассейн
               </label>
             </li>
-
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="парковка" checked> Парковка
@@ -114,12 +110,12 @@
       </select>
       <ul class="view-list">
         <li>
-          <a href="#" class="button button-light">
+          <a href="#" class="view-list-link">
             <span class="visually-hidden">Показать список</span>
           </a>
         </li>
         <li>
-          <a href="#" class="button button-light">
+          <a href="#" class="view-list-link">
             <span class="visually-hidden">Показать слайдшоу</span>
           </a>
         </li>
@@ -134,13 +130,13 @@
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="#" alt="photo Amara Resort & Spa">
           </a>
-          <a class="product-card-title" href="#">
+          <a class="product-card-link-hotel" href="#">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
           <p class="product-card-hotel">Гостиница</p>
           <b class="product-card-price">От 4000 ₽</b>
-          <button class="button-card" type="submit">Подробнее</button>
-          <button class="product-card-fav" type="submit">Избранное</button>
+          <a class="link-card" href="">Подробнее</a>
+          <button class="product-card-fav" type="button">Избранное</button>
           <img class="rating-stars" src="#" alt="рейтинг Amara Resort & Spa">
           <p class="rating-text">Рейтинг: 8,5</p>
         </li>
@@ -148,13 +144,13 @@
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="#" alt="photo Villas at Poco Diablo">
           </a>
-          <a class="product-card-title" href="#">
+          <a class="product-card-link-hotel" href="#">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
           <p class="product-card-hotel">Гостиница</p>
           <b class="product-card-price">От 5000 ₽</b>
-          <button class="button-card" type="submit">Подробнее</button>
-          <button class="product-card-fav" type="submit">Избранное</button>
+          <a class="link-card" href="">Подробнее</a>
+          <button class="product-card-fav" type="button">Избранное</button>
           <img class="rating-stars" src="#" alt="рейтинг Villas at Poco Diablo">
           <p class="rating-text">Рейтинг: 9,2</p>
         </li>
@@ -162,13 +158,13 @@
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="#" alt="photo Desert Quail Inn">
           </a>
-          <a class="product-card-title" href="#">
+          <a class="product-card-tlink-hotel" href="#">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
           <p class="product-card-hotel">Гостиница</p>
           <b class="product-card-price">От 2500 ₽</b>
-          <button class="button-card" type="submit">Подробнее</button>
-          <button class="product-card-fav" type="submit">Избранное</button>
+          <a class="link-card" href="">Подробнее</a>
+          <button class="product-card-fav" type="button">Избранное</button>
           <img class="rating-stars" src="#" alt="рейтинг Desert Quail Inn">
           <p class="rating-text">Рейтинг: 6,9</p>
         </li>
@@ -176,13 +172,13 @@
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="#" alt="photo GreenTree Inn">
           </a>
-          <a class="product-card-title" href="#">
+          <a class="product-card-link-hotel" href="#">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
           <p class="product-card-hotel">Гостиница</p>
           <b class="product-card-price">От 1500 ₽</b>
-          <button class="button-card" type="submit">Подробнее</button>
-          <button class="product-card-fav" type="submit">Избранное</button>
+          <a class="link-card" href="">Подробнее</a>
+          <button class="product-card-fav" type="button">Избранное</button>
           <img class="rating-stars" src="#" alt="рейтинг GreenTree Inn">
           <p class="rating-text">Рейтинг: 5,0</p>>
         </li>
@@ -203,17 +199,17 @@
         <li class="pagination-item">
           <a class="pagination-link" href="#">4</a>
         </li>
-        <li>
+        <li class="pagination-item">
           <p>...</p>
         </li>
-        <li>
+        <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>
         </li>
       </ol>
     </section>
     <section class="newsletter">
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-      <p class="newsletter-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="newsletter-email">Email</label>
         <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
@@ -223,7 +219,7 @@
       </form>
     </section>
   </main>
-    <footer class="footer">
+  <footer class="footer">
       <ul class="footer-list">
         <li class="footer-item">
           <a class="footer-link" href="#">
@@ -243,8 +239,9 @@
       </ul>
       <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-        <img class="fotter-logo" alt="Логотип htmlacademy" src="#"></a>
-    </footer>
+        <img class="fotter-logo" alt="Логотип htmlacademy" src="#">
+      </a>
+  </footer>
 </body>
 
 </html>
